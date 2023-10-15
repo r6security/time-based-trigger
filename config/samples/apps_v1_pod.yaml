@@ -1,0 +1,12 @@
+apiVersion: apps.amtd.r6security.com/v1
+kind: Pod
+metadata:
+  labels:
+    app.kubernetes.io/name: pod
+    app.kubernetes.io/instance: pod-sample
+    app.kubernetes.io/part-of: time-based-trigger
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: time-based-trigger
+  name: pod-sample
+spec:
+  # TODO(user): Add fields here
